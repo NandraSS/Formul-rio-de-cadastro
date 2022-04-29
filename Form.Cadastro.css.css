@@ -1,0 +1,85 @@
+/* Todos os elementos da página */
+* {
+    margin-bottom: 0;
+    padding: 0;;
+}
+#cabecalho
+{
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+background: #ffffff;
+font-size: 16px;
+ border-bottom: 1px solid #e5e5e5;
+ border-bottom-style:double;
+ width: 100%;
+
+ 
+ 
+
+ }
+ #titulo{
+     font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+color:#009df8;
+border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+body{
+    background-color: #ffffff;
+    font-size: 1.1em;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+   }
+
+input{
+
+    padding: 0.7em;
+    border: 1px solid #e5e5e5;
+    width: 30%;
+    border-radius: 5px;
+    border-color: #e5e5e5;
+    outline-color: #009df8;
+    
+ 
+}
+    
+   
+     
+button{
+       cursor: pointer;
+       background: #ffffff;
+       padding: 0.5em;
+     border: 1px solid #009df8;
+     color: #009df8;
+     border-radius: 5px;
+     font-size: 1em;
+    
+
+     }
+    
+button:hover{
+         background:#009df8;
+         color: #ffffff;
+     }
+
+   
+footer {
+  
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    line-height: 60px;
+    color:#0f0808;
+  
+}
+  @media (min-width:768px) {
+        html{
+          font-size: 16px;
+          
+        }
+    }
